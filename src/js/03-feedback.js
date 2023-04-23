@@ -20,8 +20,8 @@ const [emailSelector, messageSelector, btnSelector] = values.querySelectorAll('.
 
 //Objeto de inicio de valores
 let formValues = {
-    email: "damanosalvag@gmail.com",
-    message: "test message",
+    email: "fakemail@fake.com",
+    message: "new001",
 };
 
 // Fijacion de los valores guardados en localStorage en el formulario

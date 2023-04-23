@@ -3,9 +3,9 @@ import throttle from 'lodash.throttle';
 
 const iframe = document.querySelector('iframe');
 const player = new Player(iframe);
-const iniTime = localStorage.getItem("videoplayer-current-time");
+const videoTime = localStorage.getItem("videoplayer-current-time");
 
-player.setCurrentTime(iniTime).then().catch((error) => {
+player.setCurrentTime(videoTime).then().catch((error) => {
     switch (error.name) {
         case 'RangeError':
             console.log('the time was less than 0 or greater than the video’s duration');

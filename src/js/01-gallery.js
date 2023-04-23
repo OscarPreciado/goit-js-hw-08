@@ -20,4 +20,4 @@ const elementsGallery = galleryItems.map(pic => {
 
 containerPics.insertAdjacentHTML('afterbegin', elementsGallery);
 
-const instancia = new SimpleLightbox('.gallery a', {captionDelay: 250, captionsData: 'alt'});
+const llamado = new SimpleLightbox('.gallery a', {captionDelay: 250, captionsData: 'alt'});
